@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.counter {
+  float: left;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  
+}
+
+.griglia {
+  width: 640px;
+  margin: auto;
+}
+
+.card {
+  border: 1px solid black;
+  height: 80px;
+  width: 80px;
+  float: left;
+}
+
+.green {
+  background-color: green;
+}
+
+.card.red {
+  background-color: red;
+}
